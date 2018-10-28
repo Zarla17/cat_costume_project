@@ -18,3 +18,4 @@ The purpose of this project is to build a mobile-first, responsive website to sh
 * There are already media selectors for handling larger website formats in the CSS file.
 
 The rest is up to you to build out! Good luck. Remember to ask your mentors and peers questions in Slack!
+# CatCostumeProject
