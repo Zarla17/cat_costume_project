@@ -1,59 +1,121 @@
 <html>
-  <head>
-    <title>Kat's Constume Shop</title>
-    <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
-    <link href="./assets/css/index.css" media="all" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav>
-        Kat's Costume Shop
-        About
-        Contact
-      </nav>
-      <section>
-        <!--
-          Desktop and Mobile hero images should be displayed here.
-          Learn more about the term "hero image": https://en.wikipedia.org/wiki/Hero_image
-        -->
-      </section>
-    </header>
-    <section>
-      Get some serious cat-titude
-      Kat's Costume Shop is your one stop shop to finding the
-      best of the best cat costumes and apparel. We offer a wide
-      variety of hats, sweaters, shirts, masks, sunglasses, onesies,
-      capes, socks and booties. Custom orders are available upon
-      request. Just stop by the store or call and ask for Mavis.
 
-      About Kat
-      Kat is the ultimate cat lady you've always dreamed you could
-      be. Never has a Halloween gone by where her twelve cats weren't
-      all dressed to impress. Five years ago, she decided to open
-      Kat's Costume Shop to share her passion with the world.
+<head>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+	<title>Kat's Constume Shop</title>
+	<meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
+	<link href="./assets/css/index.css" media="all" rel="stylesheet">
+</head>
 
-      About Mavis
-      Mavis has been designing custom clothes for her three
-      cats since she was fifteen years old. She loves working on
-      custom orders. Her cats are often roaming freely throughout
-      the store and modeling the latest trends.
+<body>
 
-      Get In Touch
-      Business Hours
-      Monday-Friday 11am - 8pm
-      Saturday 11am - 4pm
-      Sunday 12pm - 4pm
+	<header>
+		<nav class="spaceBetween mobileCenter">
+			<h4 class="storeTitle1 ptNarrow">Kat's Costume Shop</h4>
+			<div class="spaceBetween">
+				<a class="ptNarrow navText desktopOnly" href="#About">About</a>
+				<a class="ptNarrow navText desktopOnly" href="#Contact">Contact</a>
+			</div>
+		</nav>
+	</header>
 
-      Contact Info
-      Phone
-      (123) 456-7890
+	<div class="hero">
+		<div>
+			<p style="text-align:left" class="smallHeading ptNarrow">Find the</p>
+			<p class="mainHeading ptNarrow">purrr.....rrfect</p>
+			<p style="text-align: right" class="smallHeading ptNarrow">costume</p>
+		</div>
+		<img align="center" class="catCrusader" src="assets/images/kats-hero-mobile.png">
+	</div>
 
-      Address
-      1234 Imaginary Ln.
-      St. Louis, MO 63101
-    </section>
-    <footer>
-      Kat's Costume Shop
-    </footer>
-  </body>
+	<section>
+
+		<div class="introParagraph">
+			<h1 id="pageTitle" class="ptNarrow"><strong>Get Some Serious Cat-titude</strong></h1>
+			<p class="pt largerFont">Kat's Costume Shop is your one stop shop to finding the
+				best of the best cat <br class="desktopOnly">costumes and apparel. We offer a wide
+				variety of hats, sweaters, shirts, masks, <br class="desktopOnly">sunglasses, onesies,
+				capes, socks and booties. Custom orders are available upon <br class="desktopOnly">
+				request. Just stop by the store or call and ask for Mavis.</p>
+		</div>
+
+		<div class="peopleSection">
+			<div>
+				<h2 class="tealHeader ptNarrow">About Kat</h2>
+				<p class="pt">Kat is the ultimate cat lady you've <br class="desktopOnly">always dreamed you could
+					be. Never <br class="desktopOnly">has a Halloween gone by where her <br class="desktopOnly">twelve cats
+					weren't
+					all dressed to <br class="desktopOnly">impress. Five years ago, she decided <br class="desktopOnly">to open
+					Kat's Costume Shop to share <br class="desktopOnly">her passion with the world.</p>
+			</div>
+			<div>
+				<h2 class="tealHeader ptNarrow">About Mavis</h2>
+				<p class="pt">Mavis has been designing custom <br class="desktopOnly">clothes for her three
+					cats since she <br class="desktopOnly">was fifteen years old. She loves <br class="desktopOnly">working on
+					custom orders. Her cats <br class="desktopOnly">are often roaming freely throughout <br class="desktopOnly">
+					the store and modeling the latest <br class="desktopOnly">trends.</p>
+			</div>
+		</div>
+
+		<div class="spaceEvenly">
+			<img src="assets/images/kats-cat1.jpg" alt="cat1" class="img-circle desktopOnly">
+			<img src="assets/images/kats-cat3.jpg" alt="leatherJacket" class="img-circle">
+			<img src="assets/images/kats-cat2.jpg" alt="cat2" class="img-circle desktopOnly">
+		</div>
+
+
+
+		<div class="contactSection">
+			<h1 class="blackHeader ptNarrow desktopOnly">Get In Touch</h1>
+			<div class="spaceAround">
+
+				<div class="info">
+					<!-- add containers to all blocks -->
+					<h2 class="tealHeader ptNarrow contactLineheight">Business Hours</h2>
+					<p>
+						<span class="day pt">Monday-Friday</span>
+						<span class="time pt">11am - 8pm</span>
+					</p>
+					<p>
+						<span class="day pt">Saturday</span>
+						<span class="time pt">10am - 4pm</span>
+					</p>
+					<p>
+						<span class="day pt">Sunday</span>
+						<span class="time pt">12pm - 4pm</span>
+					</p>
+				</div>
+
+				<div class="info">
+					<h2 class="tealHeader ptNarrow contactLineheight">Contact Info</h2>
+					<p>
+						<span class="phone pt"><strong>Phone</strong></span>
+						<span class="phoneNumber pt">(123) 456-7890</span>
+					</p>
+					<p>
+						<span class="location pt"><strong>Address</strong></span>
+						<span class="addressLine1 pt"><strong>1234 Imaginary Ln.</strong></span>
+					</p>
+					<p>
+						<span class="addressLine2 pt"><strong>St. Louis, MO 63101</strong></span>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+
+	</section>
+
+
+	<img src="assets/images/kats-map.jpg" alt="mobileMap" class="map center">
+
+	<footer>
+		<h4 class="storeTitle2 ptNarrow">Kat's Costume Shop</h4>
+	</footer>
+
+</body>
+
 </html>
